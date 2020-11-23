@@ -57,6 +57,7 @@ class Report extends React.Component {
     return (
       <div>
         <h1>Report data</h1>
+        <h3>dd-mm-yyyy</h3>
         <form onSubmit={this.handleSubmit.bind(this)}>
           <label>date</label>
           <br />
